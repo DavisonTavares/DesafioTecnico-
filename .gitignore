@@ -1,0 +1,28 @@
+# Node modules (frontend e backend)
+**/node_modules
+
+# Build outputs
+**/.next
+**/dist
+
+# Logs
+*.log
+npm-debug.log*
+
+# Mac/Linux/Windows system files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Docker volumes (se usar bind para volumes)
+**/data
+**/pgdata
+
+# VSCode and IDE configs
+.vscode/
+.idea/
+*.swp
